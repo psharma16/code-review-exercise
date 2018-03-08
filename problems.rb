@@ -1,13 +1,8 @@
-# TODO: fix this whole function
-def printHiabunchoftimesyay(numberofpotatoess)
-  $i = 0
-  $num = numberofpotatoess
-  while $i < $num  do
+# print Hi N times
+def printHiNTimes(N)
+  $index = 0
+  $numtimes = N
+  while $index < $numtimes  do
    puts("hi" )
-   $i +=1
-   $p = 0
-   while $p < 3  do
-     puts("hi" )
-     $p +=1
-   end
+   $index +=1
   end
